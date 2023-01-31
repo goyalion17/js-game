@@ -1,4 +1,6 @@
 # js-game
+Rules:
+
 1) F5 or reload page - start a new game
 
 
