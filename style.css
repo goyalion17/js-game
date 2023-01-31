@@ -7,11 +7,6 @@
     --animation-time: 2s;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 #game {
     width: 1000px;
     height: 200px;
@@ -20,7 +15,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
-
+margin: 0 auto;
 }
 
 #character {
@@ -87,4 +82,18 @@ body {
     width: 150px;
     right: 0;
     bottom: 10px;
+}
+
+.start {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: yellow;
+    background-color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 5px;
 }
